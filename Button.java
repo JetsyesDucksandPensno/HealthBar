@@ -12,6 +12,7 @@ public class Button extends Actor
     private GreenfootImage buttonImage1 = new GreenfootImage(100, 50);
     private GreenfootImage buttonImage2 = new GreenfootImage(100, 50);
     //need to add something here
+    private int value;
     private boolean justClicked = false;
     
     /**
@@ -26,12 +27,13 @@ public class Button extends Actor
         GreenfootImage text2 = new GreenfootImage(100 , 50);
 
         //need to add something here
+        value = 50;
 
         buttonImage1.setColor(Color.BLUE);
         buttonImage1.fillRect(0, 0, 100, 50);
         text1.setColor( Color.WHITE );
         text1.setFont( new Font( "Helvetica", Font.BOLD, 30 ) );
-        //text1.drawString("" + value, text1.getWidth()/3 + 1, text1.getHeight()/2 + 8);
+        text1.drawString("" + value, text1.getWidth()/3 + 1, text1.getHeight()/2 + 8);
 
         buttonImage1.drawImage( text1, 0, 0 );
 

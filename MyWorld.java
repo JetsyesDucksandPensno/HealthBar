@@ -23,4 +23,12 @@ public class MyWorld extends World
         addObject( new Button( Color.GREEN, 50 ), getWidth()/2 - 200, getHeight()/2 + 100 );
         addObject( new Button( Color.RED, 80 ), getWidth()/2 + 200, getHeight()/2 + 100);
     }
+    
+    
+    
+    
+    
+    
+    
+    
 }
